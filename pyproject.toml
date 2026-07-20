@@ -12,9 +12,9 @@ dependencies = [
     "datasets>=4.1.1",
     "fastparquet>=2024.11.0",
     "google-genai>=1.51.0",
-    "huggingface-hub>=0.34.4",
+    "huggingface-hub>=1.24.0",
     "jinja2>=3.1.6",
-    "numpy>=2.2.6",
+    "numpy>=2.5.1",
     "openai>=2.24.0",
     "pandas>=2.3.0",
     "peft>=0.17.1",
@@ -24,20 +24,20 @@ dependencies = [
     "scipy>=1.15.3",
     "setuptools>=80.9.0",
     "torch>=2.8.0",
-    "tqdm>=4.67.1",
+    "tqdm>=4.69.0",
 ]
 
 [project.optional-dependencies]
 # GPU setup with vLLM (Linux/CUDA only)
 gpu = [
-    "transformers>=4.57.1",
+    "transformers>=5.14.1",
     "qwen-vl-utils>=0.0.14",
     "vllm>=0.11.1",
 ]
 
 # All optional dependencies
 all = [
-    "transformers>=4.57.1",
+    "transformers>=5.14.1",
     "qwen-vl-utils>=0.0.14",
     "vllm>=0.11.1",
 ]
